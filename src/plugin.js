@@ -1,5 +1,5 @@
 import videojs from 'video.js';
-import throttle from 'lodash-compat/function/throttle';
+import { throttle } from 'lodash-compat';
 
 // Default options for the plugin.
 const defaults = {
